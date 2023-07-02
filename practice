@@ -1,0 +1,41 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+/*
+    char str[]="basic";
+    //printf("%c",str[2-1]);
+    char *s=str;
+    printf("\n%s",s+++3);
+    printf("\t%s",s); */
+    /*
+    int x[]={0,1,2,3};
+    int temp,i=0,j=3;
+    while(i<j)
+    {
+        temp=x[i];
+        x[i]=x[j];
+        x[j]=2*temp;
+        i++;
+        j--;
+    }
+    for(int i=0;i<4;i++)
+    {
+        printf("%d",x[i]);
+    }*/
+    /*char s[]={'a','b','c','d','c','\0'};
+    char *p,*str,*str1;
+    p=&s[3];
+    str1=s;
+    printf("%d",++*p+ ++*str1-32);*/
+    /*char s='a';
+    printf("%d %d %d %d",sizeof(3.0),sizeof(s),sizeof('a'),sizeof(3.0f));*/
+    /*static int var=5;
+    printf("%d",var--);
+    if(var)
+    main();*/
+    //printf("%x",-1<<4);
+    
+    return 0;
+}
